@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  padding: 50px;
+}
+
+.section-one {
+  background-color: rgb(58, 140, 136);
+  padding: 20px;
+  color: goldenrod;
+}
+
+.section-one__contact {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: darkseagreen;
+  display: inline-block;
+}
+
+.section-one__name {
+  font-size: 60px;
+  color: white;
+}
+
+.section-one__role {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  margin-top: 20px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+  margin-top: 10px;
+}
+
+.section-five {
+  background-color: rgb(83, 173, 203);
+  color: white;
+  padding: 20px;
+}
+
+.section-five__title a {
+  background-color: goldenrod;
+  color: white;
+}
+
+.section-three li,
+.section-four li {
+  list-style: none;
+}
+
+.section-three {
+  background-color: orange;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 0 5px red, 0 0 5px blue;
+  margin-right: 10px;
+}
+
+.section-four {
+  background-color: rgb(23, 89, 187);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgb(169, 110, 110), 0 0 5px rgb(70, 70, 138);
+}
+
+.contact-form{
+    margin: 20px;
+}
+
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+
+.contact-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(215, 195, 79);
+    color: white;
+    box-shadow: 0 0 5px rgb(171, 148, 148);
+    border: none;
+}
